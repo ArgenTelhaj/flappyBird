@@ -39,7 +39,7 @@ public class FlappyBird implements ActionListener, MouseListener {
         rand = new Random();
         Timer timer = new Timer(20 ,this);
 
-
+//populating the frame
         frame.add(renderer);
         frame.addMouseListener(this);
         frame.setTitle("FlappyBird");
